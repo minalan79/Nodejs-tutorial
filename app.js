@@ -44,7 +44,10 @@
 
 // start()
 
+// let promise = new Promise((resolve, reject) => {
+//     //executor
+// });
 
-let promise = new Promise((resolve, reject) => {
-    //executor
-});
+async function f() {
+  return 1;
+}
